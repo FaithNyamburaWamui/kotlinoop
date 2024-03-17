@@ -18,6 +18,7 @@ fun main(args: Array<String>) {
     println(myBook.pages)
     println(myBook.tittle)
     var car2 = Car("Subaru", "outback","KDF 345Y",0)
+isLanguage()
 
 
 }
@@ -68,4 +69,26 @@ class Car(val make:String, var model: String, var registration: String, var spee
 
 
     }
+
+// for loop
+fun isLanguage(){
+    var languages=arrayOf(
+       "Kotllin",
+        "Python",
+        "JavaScript",
+        "HTML",
+        )
+    for(element in languages){
+        println("language: "+element)
+    }
+}
+
+//while loop
+//fun isNum(){
+//       var a =  5
+//    while(a>0){
+//        println("A = "+ a)
+//        a=a+5
+//    }
+//}
 
